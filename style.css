@@ -15,6 +15,18 @@ body{
 
 
 /* the navigation / header section of the the website  */
+
+
+header p
+{
+    color: red;
+}
+
+
+
+
+
+
 header{
     position: relative;
     top: 0;

@@ -171,7 +171,7 @@ header .logo img
     justify-content: center;
     flex-direction: column;
     margin: 10px;
-    padding: 25px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -211,6 +211,7 @@ header .logo img
     height: 2.5rem;
     margin: 10px;
     border-radius: 5px;
+    border: none;
 }
 
 .firstbutton:hover{
@@ -783,17 +784,24 @@ header label
     .leftside
     {
         width: 100%;
+        padding: 5px;
+        margin: 5px;
     }
 
     .heading
     {
         width: 100%;
         padding: 10px;
+        margin: 5px;
     }
 
 
     .heading p{
         padding: 5px;
+    }
+
+    .innersection{
+        width: 100%;
     }
 
     
@@ -808,7 +816,7 @@ header label
 }
 
 
-@media (max-width: 1000px)
+@media (max-width: 900px)
 {
     header .navbar ul li ul{
         visibility: visible;
@@ -847,6 +855,22 @@ header label
     #menus:checked ~ .navbar 
     {
        display: block;
+    }
+
+
+    .leftside{
+        width: 100%;
+    }
+
+
+    .heading{
+        width: 90%;
+    }
+
+
+    .lastheading{
+        padding: 10px;
+        width: 90%;
     }
  
 

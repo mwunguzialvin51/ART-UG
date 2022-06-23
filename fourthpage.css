@@ -659,7 +659,7 @@ header label
 }
 
 
-@media (max-width: 1000px)
+@media (max-width: 900px)
 {
     
     header .navbar ul li ul{
@@ -699,6 +699,43 @@ header label
     #menus:checked ~ .navbar 
     {
        display: block;
+    }
+
+
+    .third-container{
+        height: 100%;
+        margin-bottom:20px ;
+    }
+
+
+    .left-section{
+        height: 100%;
+    }
+
+    .right-section
+    {
+        height: 100%;
+    }
+
+    .inner-1
+    {
+        width: 90%;
+    }
+
+
+    .innercontainer{
+        width: 90%;
+    }
+
+
+    .second-container{
+        height: 50vh;
+    }
+
+
+    .blur2 h1
+    {
+        font-size: 200%;
     }
 
  
