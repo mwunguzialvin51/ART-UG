@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: #fff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+/* the navigation / header section of the the website  */
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right:0;
+    width: 100%;
+    background: transparent;
+    box-shadow: 5px 5px 6px rgba(255,255,255,0.2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+header.logo
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+header.logo img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+header .navbar ul
+{
+    list-style: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1), -4px -5px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 8px;
+}
+
+header .navbar ul li
+{
+    position: relative;
+    display:inline-block;
+}
+
+header .navbar ul li a
+{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header .navbar ul li ul li a{
+    color: #fff;
+    transition: 0.2s;
+}
+
+header .navbar ul li ul li a:hover
+{
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header .navbar ul li ul
+{
+    position: absolute;
+    left: 0;
+    background: #000;
+    border-radius: 5px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+header .navbar ul li ul li a
+{
+    left: 300px;
+    top: 0;
+    line-height: 70px;
+}
+
+
+header .navbar ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+header button
+{
+    border: none;
+    outline: none;
+}
+
+header button a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 4px red;
+    transition: 0.2s;
+
+}
+
+header button a:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.1), -3px -3px 3px rgba(0,0,0,0.1);
+    color: #000;
+}
+
+
+header .logo{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+header .logo img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+.second-container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('photos/single\ cutting\ board.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blur1
+{
+    width: 100%;
+    height: 50%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.blur2{
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+
+.blur2 h1
+{
+    font-size: 3rem;
+    background: #ff0000;
+    box-shadow: 2px 3px 4px rgba(202, 60, 60, 0.1), -2px -3px 2px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+.description
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.innercontainer
+{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+.innercontainer h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.innercontainer p
+{
+    color: #fff;
+}
+
+
+.innercontainer h3{
+    font-size: 2.5rem;
+    color: rgb(80, 79, 79);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.third-container
+{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(255, 253, 253);
+}
+
+
+.left-section
+{
+   width: 40rem;
+   height: 20rem;
+   background: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 20px;
+   box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -5px -5px 5px rgba(0,0,0,0.03);
+   border-radius: 20px;
+}
+
+
+.right-section
+{
+   width: 35rem;
+   height: 20rem;
+   background: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 20px;
+   box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -5px -5px 5px rgba(0,0,0,0.03);
+   border-radius: 20px;
+
+}
+
+
+.box1{
+    background-color: #fff;
+    width: 15rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -5px -5px 5px rgba(0,0,0,0.03);
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+
+.box2
+{
+    background-color: #fff;
+    width: 15rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -5px -5px 5px rgba(0,0,0,0.03);;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.box2:hover
+{
+    transform: translateY(-20px);
+}
+
+
+.box1:hover{
+    transform: translatey(-20px);
+}
+
+.box1 img
+{
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.box2 img
+{
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.fourth-container
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    background-image: url('photos/single\ cutting\ board.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.division1
+{
+    width: 400px;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(1rem);
+    position: absolute;
+    left: -100px;
+    z-index: 0;
+
+    
+}
+
+
+
+.division2
+{
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(1rem);
+    position: absolute;
+    z-index: 1; 
+    box-shadow: 10px 10px 12px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.container-1
+{
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    background: #000;
+    padding: 20px;
+}
+
+
+.container-1 h1
+{
+    color: #fff;
+}
+
+.container-1 p{
+    color: #fff;
+    padding: 10px;
+    box-shadow: 5px 5px 4px rgba(255,255,255,0.1), -5px -5px 5px rgba(255,255,255,0.1);
+    background: #1f1e1e;
+}
+
+
+
+.second-description
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.second-description p
+{
+    padding: 20px;
+    border: 2px solid gold;
+    margin: 20px;
+    
+}
+
+
+.inner-1
+{
+   width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the contact section  */
+.contact-section
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #000;
+    padding: 30px;
+}
+
+
+.sec-1
+{
+    width: 350px;
+    margin: 20px;
+}
+
+
+.secton-2
+{
+    width: 350px;
+    margin: 20px;
+}
+
+
+.sec-1 h1
+{
+    color: red;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.sec-1 p
+{
+    color: #fff;
+    margin: 10px;
+}
+
+
+.sec-2 p
+{
+    color: #fff;
+    margin: 10px;
+}
+
+.sec-2 h1{
+    color: red;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.sec-3{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec-3 p{
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menus
+{
+    display: none;
+}
+
+
+header label
+{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+/* the section for the media queries  */
+
+@media (max-width: 1078px){
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar ul li a{
+        font-size: 1.8rem;
+    }
+
+
+    .third-container{
+        height: 100%;
+    }
+
+
+    .blur2
+    {
+        width: 75%;
+    }
+
+
+    .container-1
+    {
+        width: 35rem;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 1000px)
+{
+    
+    header .navbar ul li ul{
+        visibility: visible;
+        opacity: 1;
+    }
+  
+    header label
+    {
+        display: initial;
+    }
+
+    header .navbar 
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: none;
+    }
+
+    header .navbar ul li
+    {
+        width: 100%;
+    }
+
+    header .navbar ul li ul
+    {
+        position: relative;
+        width: 100%;
+
+    }
+
+
+
+    #menus:checked ~ .navbar 
+    {
+       display: block;
+    }
+
+ 
+
+
+
+
+}

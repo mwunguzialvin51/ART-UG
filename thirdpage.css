@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: #fff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+/* the navigation / header section of the the website  */
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right:0;
+    background: #000;
+    box-shadow: 5px 5px 6px rgba(255,255,255,0.2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+header.logo
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+header.logo img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+header .navbar ul
+{
+    list-style: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1), -4px -5px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 8px;
+}
+
+header .navbar ul li
+{
+    position: relative;
+    display:inline-block;
+}
+
+header .navbar ul li a
+{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header .navbar ul li ul li a{
+    color: #fff;
+    transition: 0.2s;
+}
+
+header .navbar ul li ul li a:hover
+{
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header .navbar ul li ul
+{
+    position: absolute;
+    left: 0;
+    background: #000;
+    border-radius: 5px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+header .navbar ul li ul li a
+{
+    left: 300px;
+    top: 0;
+    line-height: 70px;
+}
+
+
+header .navbar ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+header button
+{
+    border: none;
+    outline: none;
+}
+
+header button a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 4px red;
+    transition: 0.2s;
+
+}
+
+header button a:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.1), -3px -3px 3px rgba(0,0,0,0.1);
+    color: #000;
+}
+
+
+header .logo{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+header .logo img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+.secondcontainer
+{
+    width: 100%;
+    height: 100%;
+    background:rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.headings-1
+{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+
+.headings-1 h1{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+
+.headings-1 p
+{
+    color: #fff;
+}
+
+
+
+.headings-1 b{
+    color: red;
+}
+
+
+
+/* the thirdcontainer section  */
+
+.thirdcontainer
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fff;
+
+}
+
+
+
+.rightcolumn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+
+.rightcolumn h1{
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.rightcolumn  p span
+{
+    font-size: 3.5rem;
+    color: #000;
+}
+
+
+.rightcolumn p{
+    margin: 20px;
+    color: grey;
+}
+
+.rightcolumn button
+{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid black;
+    outline: none;
+    margin: 20px;
+    background: none;
+    border-radius: 20px 0;
+}
+
+
+.imagecontainer
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ width: 500px;
+}
+
+
+
+.imagecontainer img
+{
+    width: 20rem;
+}
+
+
+
+
+
+
+.section1{
+    margin-bottom: 10px;
+}
+
+.section1 button{
+    width: 10rem;
+    height: 3rem;
+    background: none;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px 0;
+}
+
+.section1 h2{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px 0;
+    margin-bottom: 10px;
+}
+
+
+.secton-2 h2
+{
+    background: red;
+    color: #fff;
+    padding: 10px;  
+    border-radius: 30px 0;
+    margin-bottom: 10px;
+}
+
+
+/* the section for the fourh container  */
+
+.fouthcontainer
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('photos/samantha-fields-fwNwNWLxXdQ-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+
+.blackbox
+{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+
+.blackbox h1{
+    color: #fff;
+    margin: 20px;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+
+.blackbox p{
+    color: #fff;
+}
+
+
+
+
+.fifthcontainer
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    flex-direction: column;
+}
+
+
+.fifthcontainer h1
+{
+    color: #fff;
+}
+
+.fifthcontainer p{
+    color: #fff;
+}
+
+
+
+
+
+.sixthcontainer
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lastheading
+{
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    border: 1px solid gold;
+}
+
+
+.seventhcontainer
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.leftside
+{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    flex-direction: column;
+    margin: 20px;
+    border-right: 1px solid black;
+    height: 60%;
+}
+
+.leftside h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+
+.rightside
+{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    margin: 20px;
+}
+
+.rightside img{
+    width: 100%;
+}
+
+
+
+.lastcontainer
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #696969;
+}
+
+
+.sectionalheading{
+    width: 50%;
+}
+
+
+.sectionalheading h1
+{
+   font-size: 2.5rem;
+   margin: 20px;
+   color: #fff;
+}
+
+
+.artpictures
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+}
+
+.div-1
+{
+    width: 450px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 10px 12px 10px rgba(184, 193, 197, 0.2);
+    background: rgb(245, 246, 247);
+    border-radius: 8px;
+
+}
+
+.div-1 img{
+    width: 100%;
+    border-radius:20px ;
+}
+
+
+.div-1 h1
+{
+    font-size: 1rem;
+    color: gray;
+    margin: 20px;
+}
+
+.div-1 p{
+    margin-bottom: 5px;
+}
+
+.div-1 button
+{
+    width: 10rem;
+    height: 3rem;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 40px 0;
+    margin: 10px;
+    color: #fff;
+}
+
+.farewell
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.farewell h1{
+    font-size: 3rem;
+    color: grey;
+}
+
+
+
+
+/* the contact section  */
+.contact-section
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #000;
+    padding: 30px;
+}
+
+
+.sec-1
+{
+    width: 350px;
+    margin: 20px;
+}
+
+
+.secton-2
+{
+    width: 350px;
+    margin: 20px;
+}
+
+
+.sec-1 h1
+{
+    color: red;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.sec-1 p
+{
+    color: #fff;
+    margin: 10px;
+}
+
+
+.sec-2 p
+{
+    color: #fff;
+    margin: 10px;
+}
+
+.sec-2 h1{
+    color: red;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.sec-3{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec-3 p{
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menus
+{
+    display: none;
+}
+
+
+header label
+{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* the section for the media queries  */
+
+@media (max-width: 1126px){
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar ul li a{
+        font-size: 1.8rem;
+    }
+
+
+    .div-1{
+        width: 500px;
+    }
+
+    .seventhcontainer
+    {
+        height: 100%;
+    }
+
+
+    .lastcontainer
+    {
+        height: 100%;
+    }
+
+    .sectionalheading{
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 1126px)
+{
+    .div-1{
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 1000px)
+{
+    header .navbar ul li ul{
+        visibility: visible;
+        opacity: 1;
+    }
+  
+    header label
+    {
+        display: initial;
+    }
+
+    header .navbar 
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: none;
+    }
+
+    header .navbar ul li
+    {
+        width: 100%;
+    }
+
+    header .navbar ul li ul
+    {
+        position: relative;
+        width: 100%;
+
+    }
+
+
+
+    #menus:checked ~ .navbar 
+    {
+       display: block;
+    }
+
+}

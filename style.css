@@ -1,0 +1,1044 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: #fff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+/* the navigation / header section of the the website  */
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right:0;
+    background: transparent;
+    box-shadow: 5px 5px 6px rgba(255,255,255,0.2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    width: 100%;
+}
+
+header.logo
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+header.logo img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+header .navbar ul
+{
+    list-style: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1), -4px -5px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 8px;
+}
+
+header .navbar ul li
+{
+    position: relative;
+    display:inline-block;
+}
+
+header .navbar ul li a
+{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header .navbar ul li ul li a{
+    color: #fff;
+    transition: 0.2s;
+}
+
+header .navbar ul li ul li a:hover
+{
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header .navbar ul li ul
+{
+    position: absolute;
+    left: 0;
+    background: #000;
+    border-radius: 5px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+}
+
+header .navbar ul li ul li a
+{
+    left: 300px;
+    top: 0;
+    line-height: 70px;
+}
+
+
+header .navbar ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+header button
+{
+    border: none;
+    outline: none;
+}
+
+header button a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 4px red;
+    transition: 0.2s;
+
+}
+
+header button a:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.1), -3px -3px 3px rgba(0,0,0,0.1);
+    color: #000;
+}
+
+
+header .logo{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+header .logo img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the first container  */
+
+.innersection
+{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url('photos/lion-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.main-division
+{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    z-index: 0;
+}
+
+
+
+.innersection h1{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+
+
+.innersection span
+{
+    color: #ff0000;
+}
+
+
+.innersection button
+{
+    outline: none;
+    border: none; 
+    margin: 30px;
+}
+
+
+.innersection button a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 4px red;
+    transition: 0.2s;
+}
+
+.innersection button a:hover{
+    background: #fff;
+    color: #000;
+    box-shadow: none;
+}
+
+
+
+.innersection button:focus
+{
+    background:grey;
+    box-shadow: 5px 4px 5px rgba(0,0,0,0.1), -5px -4px 5px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
+/* the second section of the main page  */
+
+
+.secondcontainer
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container
+
+{  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, auto));
+    grid-column-gap:20px;
+    overflow-x: hidden;
+}
+
+
+.rightcontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rightcontainer img
+{
+    width: 80%;
+    margin: 10x;
+}
+
+
+
+.leftcontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    padding: 90px;
+}
+
+
+.leftcontainer h1
+{
+    font-size: 3rem;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+
+.leftcontainer h3{
+    color: grey;
+}
+
+
+.leftcontainer h4{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.leftcontainer p{
+    color: #000;
+    border: 2px solid  gold;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.leftcontainer button
+{
+    width: 10rem;
+    padding: 1.3rem;
+    margin: 10px;
+    color: #fff;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.2s;
+    border-radius: 30px 0;
+    color: grey;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the third container  */
+
+.thirdcontainer
+{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,300px));
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient( 90deg, rgb(31, 30, 30) 50%, black 50%);
+    padding: 5rem 5rem;
+}
+
+.division-1
+{
+    background:rgb(44, 44, 44);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+.division-2
+{
+    background:#ff0000;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.division-2 h1
+
+{
+    margin-bottom: 10px;
+}
+
+.division-3 h1
+{
+    margin-bottom: 10px;
+}
+
+.division-1 h1
+{
+    margin-bottom: 10px;
+}
+
+
+.division-3
+{
+    background: rgb(44, 44, 44);
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+
+
+
+.fourthcontainer
+{
+
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+    grid-gap: 10px;
+    background: linear-gradient( 90deg, rgb(31, 30, 30) 50%, black 50%);
+
+}
+
+
+.division-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inside-division4
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.inside-division4 h1{
+    font-size: 4rem;
+    color: red;
+}
+
+.inside-division4 p{
+    color: #fff;
+}
+
+
+
+
+
+.division-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+.section{
+    background: rgb(44, 44, 44);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+.section h2
+{
+    font-size:2rem;
+    color: red;
+}
+
+.section p{
+    color:#fff;
+}
+
+
+/* the sixth container section  */
+
+
+.sixthcontainer
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('photos/lion-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;padding: 20px;
+}
+
+
+.description-1
+{
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.description-1 h1,p{
+    color: #fff;
+}
+
+
+.direction-1
+{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.direction-1 button
+{
+    background: red;
+    outline: none;
+    border: 1px solid red;
+    width: 10rem;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+
+/* the section for the seventh container  */
+
+.seventhcontainer
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient( black 50%,rgb(22, 22, 22) 50%);
+    padding: 5px;
+}
+
+.box
+{
+    width: 500px;
+    height: 450px;
+    margin: 10px;
+    padding:10px;
+    background: rgb(41, 40, 40);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.box img{
+    width: 80%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contents
+{
+    width: 100%;
+    margin: 5px;
+}
+
+
+.contents h1{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.contents button{
+    border-radius: 30px 0;
+    width: 10rem;
+    height: 3rem;
+    background: transparent;
+    color: #fff;
+    margin: 10px;
+    border: 1px solid #fff;
+}
+
+
+.box h1{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.box p{
+    color: #fff;
+}
+
+
+/* the closing sectionof the webpage  */
+
+.closing-area
+{
+    width: 100%;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+
+
+.inside-closingarea
+{
+    background:rgb(44, 44, 44);
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.content-section
+{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    pad: 10px;
+}
+
+.content-section h1 , p{
+    color: #fff;
+}
+
+
+.buttonsection
+{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttonsection button
+{
+    width: 6rem;
+    padding: 10px;
+    background: red;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+
+.buttonsection button a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.buttonsection button:hover{
+    background: white;
+    box-sizing: 5px 3px 4px rgba(255,255,255,0.5);
+    border: none;
+}
+
+
+.buttonsection button:focus{
+    background-color: grey;
+}
+
+
+
+.enclosure
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.person
+{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 5px 6px 5px rgba(0,0,0,0.1), -4px -5px 5px rgba(0,0,0,0.1);
+}
+
+
+.person img{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+}
+
+
+.about{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.about h1{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+
+.about h5{
+    font-size: 1.2rem;
+}
+
+.about span{
+    font-size: 4rem;
+    color: grey;
+}
+
+
+
+/* the contact section  */
+.contact-section
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(37, 37, 37);
+    padding: 30px;
+}
+
+
+.sec-1
+{
+    width: 350px;
+    margin: 20px;
+}
+
+
+.secton-2
+{
+    width: 350px;
+    margin: 20px;
+}
+
+
+.sec-1 h1
+{
+    color: red;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.sec-1 p
+{
+    color: #fff;
+    margin: 10px;
+}
+
+
+.sec-2 p
+{
+    color: #fff;
+    margin: 10px;
+}
+
+.sec-2 h1{
+    color: red;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.sec-3{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec-3 p{
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menus
+{
+    display: none;
+}
+
+
+header label
+{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+/* the section for the media queries  */
+
+@media (max-width: 1178px){
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    
+    .leftcontainer h1
+    {
+        font-size: 2rem;
+    }
+
+
+
+    .main-division h1
+    {
+        font-size: 5rem;
+        margin: 30px;
+    }
+
+
+    .main-division .button{
+        margin: 10px;
+    }
+
+    .secondcontainer{
+        height: 100%;
+    }
+
+    .thirdcontainer
+    {
+        height: 100%;
+    }
+
+    .fourthcontainer
+    {
+        height: 100%;
+    }
+
+
+    .rightcontainer img
+    {
+        width: 50%;
+    }
+
+    .box{
+        width: 600px;
+        height: 550px;
+    }
+
+    .main-division h1{
+        font-size: 290%;
+    }
+
+    .main-division button a
+    {
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1px;
+
+    }
+
+    .sixthcontainer
+    {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description-1
+    {
+        margin: 40px;
+    }
+
+    .about{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .enclosure{
+        height: 100%;
+    }
+
+
+    .person{
+        margin: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 1091px)
+{
+
+    header .navbar ul li ul{
+        visibility: visible;
+        opacity: 1;
+    }
+  
+    header label
+    {
+        display: initial;
+    }
+
+    header .navbar 
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: none;
+    }
+
+    header .navbar ul li
+    {
+        width: 100%;
+    }
+
+    header .navbar ul li ul
+    {
+        position: relative;
+        width: 100%;
+
+    }
+
+
+
+    #menus:checked ~ .navbar 
+    {
+       display: block;
+    }
+
+  
+
+    
+ 
+
+
+
+}
