@@ -155,7 +155,7 @@ header .logo img
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url('photos/single\ cutting\ board.jpg');
+    background-image: url('single\ cutting\ board.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -361,7 +361,7 @@ header .logo img
     height: 70vh;
     display: flex;
     position: relative;
-    background-image: url('photos/single\ cutting\ board.jpg');
+    background-image: url('single\ cutting\ board.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

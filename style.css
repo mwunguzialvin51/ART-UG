@@ -178,7 +178,7 @@ header .logo img
 
     width: 100%;
     height: 100vh;
-    background-image: url('photos/lion-1.jpg');
+    background-image: url('lion-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no repeat;
@@ -532,7 +532,7 @@ header .logo img
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url('photos/lion-1.jpg');
+    background-image: url('lion-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
