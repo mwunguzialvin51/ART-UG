@@ -604,11 +604,11 @@ header .logo img
 
 .box1
 {
-    width: 500px;
-    height: 750px;
-    margin: 10px;
+    width: 520px;
+    height: 760px;
     background: rgb(41, 40, 40);
     padding: 50px;
+    margin: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
