@@ -609,7 +609,7 @@ header .logo img
     width: 520px;
     height: 760px;
     background: rgb(41, 40, 40);
-    padding:20px;
+    padding:10px;
     margin: 30px;
     display: flex;
     align-items: center;
@@ -623,7 +623,7 @@ header .logo img
     width: 750px;
     height: 500px;
     margin: 10px;
-    padding:40px;
+    padding:20px;
     background: rgb(41, 40, 40);
     display: flex;
     align-items: center;
@@ -635,7 +635,7 @@ header .logo img
 
 
 .box1 img{
-    width: 80%;
+    width: 90%;
     height: 80%;
     margin: 5px;
     border-radius: 5px;
