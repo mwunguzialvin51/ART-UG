@@ -291,14 +291,7 @@ header .logo img
 }
 
 
-.rightcontainer
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
 
-}
 
 .carousel-wrapper {
     height: 400px;
@@ -306,7 +299,7 @@ header .logo img
     width: 80%;
     display: block;
     margin: 50px;
-    border: 2px solid black;
+
   }
   
   .carousel-item {
@@ -343,7 +336,7 @@ header .logo img
     display: none;
   }
   .item-1 {
-    z-index: 1;
+    z-index: 2;
     opacity: 1;
     background: url('web1.jpg');
     background-size: cover;
@@ -404,8 +397,8 @@ header .logo img
     opacity: 1;
   
   }
-  #item-2:target ~ .item-2, #item-3:target ~ .item-4, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8 , #item-9:target ~ .item-9{
-    z-index: 3;
+  #item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8 , #item-9:target ~ .item-9{
+    z-index: 10;
     opacity: 1;
   } 
 
