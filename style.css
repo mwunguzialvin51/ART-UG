@@ -297,10 +297,10 @@ header .logo img
 
 .carousel-wrapper {
     position: relative;
-    width: 100%;
+    width: 200%;
     height: 400px;
     display: block;
-    margin: 50px;
+    margin: 10px;
 
   }
   
