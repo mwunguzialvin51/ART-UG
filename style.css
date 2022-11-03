@@ -205,11 +205,13 @@ header .logo img
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(2rem);
+    background: black;
+    position: absolute;
+    top: 200px;
     border-radius: 10px;
     z-index: 0;
     margin-top: 200px;
+    text-align: center;
 }
 
 
