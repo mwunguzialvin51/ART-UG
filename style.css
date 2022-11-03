@@ -288,7 +288,7 @@ header .logo img
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ff0000;
+    background-color: whitesmoke;
     margin: 20px;
 }
 
@@ -297,7 +297,7 @@ header .logo img
 
 .carousel-wrapper {
     position: relative;
-    width: 80%;
+    width: 100%;
     height: 400px;
     display: block;
     margin: 50px;
@@ -415,13 +415,11 @@ header .logo img
     flex-direction: column;  
     padding: 50px;
     width: 650px;
-    background-color: #ff0000;
 }
 
 .inner-1{
     width: 100%;
     margin: 20px;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
