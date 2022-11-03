@@ -302,11 +302,11 @@ header .logo img
 }
 
 .carousel-wrapper {
-    height: 400px;
+    height: 100%;
     position: relative;
-    width: 550px;
+    width: 100%;
     display: block;
-    margin: 50px auto ;
+    margin: 50px;
     border: 2px solid black;
   }
   
