@@ -607,7 +607,10 @@ header .logo img
     width: 520px;
     height: 760px;
     background: rgb(41, 40, 40);
-    padding: 50px;
+    padding-left: 50px;
+    padding-left: 50px;
+    padding-bottom:60px;
+    padding-top: 60px;
     margin: 30px;
     display: flex;
     align-items: center;
@@ -618,10 +621,13 @@ header .logo img
 
 .box
 {
-    width: 600px;
+    width: 700px;
     height: 600px;
     margin: 30px;
-    padding:30px;
+    padding-top:40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
     background: rgb(41, 40, 40);
     padding: 10px;
     display: flex;
