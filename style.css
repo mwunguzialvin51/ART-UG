@@ -606,8 +606,8 @@ header .logo img
 
 .box1
 {
-    width: 960px;
-    height: 960px;
+    width: 500px;
+    height: 750px;
     background: rgb(41, 40, 40);
     padding:10px;
     margin: 15px;
@@ -620,8 +620,8 @@ header .logo img
 
 .box2
 {
-    width: 960px;
-    height: 960px;;
+    width: 500px;
+    height: 750px;;
     background: rgb(41, 40, 40);
     padding:10px;
     margin: 15px;
@@ -634,8 +634,8 @@ header .logo img
 
 .box3
 {
-    width: 960px;
-    height: 960px;
+    width: 750px;
+    height:500px;
     margin: 15px;
     padding:20px;
     background: rgb(41, 40, 40);
@@ -648,8 +648,8 @@ header .logo img
 
 .box4
 {
-    width: 960px;
-    height: 960px;
+    width: 750px;
+    height: 500px;
     margin: 15px;
     padding:20px;
     background: rgb(41, 40, 40);
