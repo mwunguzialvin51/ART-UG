@@ -289,7 +289,7 @@ header .logo img
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
-    margin: 20px;
+    margin: 10px;
 }
 
 
@@ -413,7 +413,7 @@ header .logo img
     align-items: center;
     justify-content: center;
     flex-direction: column;  
-    padding: 50px;
+    padding: 20px;
     width: 600px;
 }
 
