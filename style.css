@@ -20,6 +20,7 @@ body{
 header p
 {
     color: black;
+    background-color: black;
 }
 
 
@@ -29,28 +30,15 @@ header p
 
 header{
     position: relative;
-    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-around;
     z-index: 1000;
     width: 100%;
-    height: 5rem;
+    height: 10rem;
 }
 
-header.logo
-{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-}
 
-header.logo img
-{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-}
 
 
 header .navbar ul
@@ -58,6 +46,8 @@ header .navbar ul
     list-style: none;
     padding: 10px;
     margin-top: 8px;
+    background-color: black;
+    border-radius: 10px;
 }
 
 header .navbar ul li
@@ -117,6 +107,8 @@ header button
 {
     border: none;
     outline: none;
+    width: 7rem;
+    height: 3rem;
 }
 
 header button a
@@ -124,10 +116,10 @@ header button a
     text-decoration: none;
     color: #fff;
     background-color: red;
-    padding: 20px 30px;
     border-radius: 8px;
     box-shadow: 4px 3px 4px red;
     transition: 0.2s;
+    font-size: 1.5rem;
 
 }
 
@@ -139,23 +131,7 @@ header button a:hover
 }
 
 
-header .logo{
-    width: 20rem;
-    height: 20rem;
-    margin-top: 20rem;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
 
-header .logo img
-{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
 
 
 
@@ -201,7 +177,7 @@ header .logo img
 
 .main-division
 {
-    width: 70%;
+    width: 60%;
     height: 20%;
     display: flex;
     align-items: center;
@@ -213,7 +189,39 @@ header .logo img
     border-radius: 10px;
     z-index: 0;
     margin-top: 200px;
+    color: #fff;
     text-align: center;
+    font-size: 200%;
+}
+
+
+
+.main-1
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-1 .logo{
+
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 
@@ -446,7 +454,7 @@ header .logo img
 
 
 .inner-1 h4{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #000;
     margin: 3px;
     text-align: center;
@@ -457,6 +465,8 @@ header .logo img
     border: 2px solid  gold;
     padding: 10px;
     margin: 3px;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 
