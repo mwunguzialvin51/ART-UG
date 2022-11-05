@@ -1110,51 +1110,9 @@ header label
 @media (max-width: 1091px)
 {
 
-    header .navbar ul li ul{
-        visibility: visible;
-        opacity: 1;
-    }
+   
   
-    header label
-    {
-        display: initial;
-    }
-
-    header .navbar 
-    {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        width: 100%;
-        display: none;
-    }
-
-    header .navbar ul li
-    {
-        width: 100%;
-    }
-
-    header .navbar ul li ul
-    {
-        position: relative;
-        width: 100%;
-
-    }
-
-
-
-    #menus:checked ~ .navbar 
-    {
-       display: block;
-    }
-
-  
-
-    
- 
-
-
+   
 
 }
 
