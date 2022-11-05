@@ -1129,6 +1129,9 @@ header label
 
 
 
+
+
+
 @media (max-width: 1091px)
 {
 
@@ -1178,4 +1181,16 @@ header label
 
 
 
+}
+
+
+
+@media (max-width: 720px){
+
+
+    header .logo{
+        width: 3rem;
+        height: 3rem;
+        border-radius:50% ;
+    }
 }
