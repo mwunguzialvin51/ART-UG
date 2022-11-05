@@ -46,8 +46,9 @@ header .navbar ul
     width: 17rem;
     height: 4rem;
     display: flex;
+    padding: 10px;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 header .navbar ul li
@@ -63,12 +64,13 @@ header .navbar ul li a
     padding: 10px;
     color: #fff;
     text-decoration: none;
+    transition: 0.3s;
     
 }
 
 header .navbar ul li ul li a{
     color: #fff;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 header .navbar ul li ul li a:hover
@@ -87,6 +89,8 @@ header .navbar ul li ul
     padding: 10px;
     visibility: hidden;
     opacity: 0;
+    height: 25rem;
+    margin: 17px;
 }
 
 header .navbar ul li ul li a
@@ -1008,46 +1012,6 @@ header .navbar ul li:hover ul{
         overflow-x: hidden;
     }
 
-    header .navbar ul li ul{
-        visibility: visible;
-        opacity: 1;
-    }
-  
-    header label
-    {
-        display: initial;
-    }
-
-    header .navbar 
-    {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        width: 100%;
-        display: none;
-    }
-
-    header .navbar ul li
-    {
-        width: 100%;
-    }
-
-    header .navbar ul li ul
-    {
-        position: relative;
-        width: 100%;
-
-    }
-
-
-
-    #menus:checked ~ .navbar 
-    {
-       display: block;
-    }
-
-
     
     .leftcontainer h1
     {
@@ -1161,7 +1125,9 @@ header .navbar ul li:hover ul{
         margin: 10px;
     }
 
-    .header .navbar ul{
+    .dropbtn{
+        width: 15rem;
+        height: 3rem;
         margin:10px;
         margin-top: 17px;
         text-align: center;
