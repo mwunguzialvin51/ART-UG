@@ -982,19 +982,9 @@ header button a:hover
 
 
 
-#menus
-{
-    display: none;
-}
 
 
-header label
-{
-    font-size: 20px;
-    color: red;
-    cursor: pointer;
-    display: none;
-}
+
 
 
 
@@ -1101,29 +1091,11 @@ header label
 
 
 
-
-
-
-
-
-
-@media (max-width: 1091px)
-{
-
-   
-  
-   
-
-}
-
-
-
 @media (max-width: 720px){
 
 
-    header .logo{
-        width: 15rem;
-        height: 15rem;
-        border-radius:50% ;
+     .logo{
+        width: 10rem;
+        height: 10rem;
     }
 }
