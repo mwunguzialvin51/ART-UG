@@ -186,7 +186,7 @@ header .navbar{
 {
     outline: none;
     border: none; 
-    margin: 20px;
+    margin: 10px;
     width: 15rem;
     height: 3.5rem;
 }
@@ -1098,6 +1098,7 @@ header .navbar{
         height: 3rem;
         text-align: center;
         position: relative;
+        margin: 10px;
     }
 
     .dropbtn{
