@@ -42,68 +42,43 @@ header{
 }
 
 
-
-
-header .navbar ul
-{
-    list-style: none;
-    padding: 10px;
-    margin-top: 8px;
-    background-color: black;
+.dropbtn {
+    background-color: #000;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 15rem;
     border-radius: 10px;
-}
-
-header .navbar ul li
-{
+  }
+  
+  .dropdown {
     position: relative;
-    display:inline-block;
-}
-
-header .navbar ul li a
-{
-    font-size: 20px;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    
-}
-
-header .navbar ul li ul li a{
-    color: #fff;
-    transition: 0.2s;
-}
-
-header .navbar ul li ul li a:hover
-{
-    background: red;
-    color: #fff;
-    border-radius: 5px;
-}
-
-header .navbar ul li ul
-{
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
     position: absolute;
-    left: 0;
-    background: #000;
-    border-radius: 5px;
-    padding: 10px;
-    visibility: hidden;
-    opacity: 0;
-    width: 100%;
-}
-
-header .navbar ul li ul li a
-{
-    left: 300px;
-    top: 0;
-    line-height: 70px;
-}
-
-
-header .navbar ul li:hover ul{
-    visibility: visible;
-    opacity: 1;
-}
+    background-color: rgb(59, 58, 58);
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: red;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: red;}
 
 
 header button
@@ -193,25 +168,14 @@ header button a:hover
     z-index: 0;
     color: #fff;
     text-align: center;
-    font-size: 200%;
+    font-size: 100%;
 }
 
 
 
-.main-1
-{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    border-radius: 10px;
-    z-index: 0;
-    text-align: center;
-}
 
-.main-1 .logo{
+
+ .logo{
 
     border-radius: 50%;
     width: 20rem;
