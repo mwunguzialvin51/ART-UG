@@ -781,11 +781,12 @@ header .navbar{
     justify-content: center;
     flex-direction: column;
     margin: 20px;
-    pad: 10px;
+    padding: 10px;
 }
 
 .content-section h1 , p{
     color: #fff;
+    margin: 5px;
 }
 
 
@@ -1093,9 +1094,9 @@ header .navbar{
     }
 
     .innersection .contact{
-        width: 20rem;
-        height: 5rem;
-        margin: 20px;
+        width: 15rem;
+        height: 3rem;
+        margin: 10px;
         text-align: center;
         margin-top: 40px;
         position: relative;
@@ -1103,13 +1104,13 @@ header .navbar{
 
     .dropbtn{
         width: 15rem;
-        height: 5rem;
-        margin:15px;
+        height: 3rem;
+        margin:10px;
         text-align: center;
     }
 
     header{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
 
@@ -1121,6 +1122,8 @@ header .navbar{
     .content-section{
         padding: 15px;
     }
+
+
 
    
 
