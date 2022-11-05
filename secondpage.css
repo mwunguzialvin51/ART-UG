@@ -707,10 +707,7 @@ header .logo img
 /* the section for the media quaries on the second page of the website  */
 
 
-#menus
-{
-    display: none;
-}
+
 
 
 header label
@@ -737,14 +734,7 @@ header label
         overflow-x: hidden;
     }
 
-    .navbar ul li a{
-        font-size: 1.8rem;
-    }
-
-
-    .navbar{
-        justify-content: space-around;
-    }
+    
 
 
 
@@ -818,44 +808,7 @@ header label
 
 @media (max-width: 900px)
 {
-    header .navbar ul li ul{
-        visibility: visible;
-        opacity: 1;
-    }
-  
-    header label
-    {
-        display: initial;
-    }
-
-    header .navbar 
-    {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        width: 100%;
-        display: none;
-    }
-
-    header .navbar ul li
-    {
-        width: 100%;
-    }
-
-    header .navbar ul li ul
-    {
-        position: relative;
-        width: 100%;
-
-    }
-
-
-
-    #menus:checked ~ .navbar 
-    {
-       display: block;
-    }
+    
 
 
     .leftside{
