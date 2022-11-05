@@ -186,7 +186,7 @@ header .navbar{
 {
     outline: none;
     border: none; 
-    margin: 10px;
+    margin: 20px;
     width: 15rem;
     height: 3.5rem;
 }
@@ -1105,6 +1105,7 @@ header .navbar{
         width: 15rem;
         height: 3rem;
         margin:10px;
+        margin-top: 20px;
         text-align: center;
     }
 
