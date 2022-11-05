@@ -1092,21 +1092,34 @@ header .navbar{
         width: 90%;
     }
 
-    header button{
-        width: 10rem;
-        height: 2rem;
-        font: 150%;
-        margin: 10px;
+    .innersection .contact{
+        width: 20rem;
+        height: 5rem;
+        margin: 20px;
+        text-align: center;
+        margin-top: 40px;
+        position: relative;
     }
 
     .dropbtn{
-        width: 10rem;
-        height: 2rem;
-        margin:10px;
+        width: 15rem;
+        height: 5rem;
+        margin:15px;
+        text-align: center;
     }
 
     header{
         justify-content: space-between;
+    }
+
+
+    .description-1{
+        height: 250px;
+        width: 90% ;
+    }
+
+    .content-section{
+        padding: 15px;
     }
 
    
