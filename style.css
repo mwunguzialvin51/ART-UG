@@ -81,20 +81,28 @@ header .navbar ul li ul li a:hover
     border-radius: 5px;
 }
 
-header .navbar ul li ul
+#close{
+    background-color: #8c0;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+header .navbar ul li .items
 {
     position: absolute;
     left: 0;
-    background: #000;
+    background: rgb(59, 59, 59);
     border-radius: 5px;
-    padding: 10px;
-    visibility: hidden;
+    padding: 15px;
+    display: hidden;
     opacity: 0;
     height: 25rem;
     margin: 17px;
 }
 
-header .navbar ul li ul li a
+header .navbar ul li .items li a
 {
     left: 300px;
     top: 0;
@@ -102,8 +110,8 @@ header .navbar ul li ul li a
 }
 
 
-header .navbar ul li:hover ul{
-    visibility: visible;
+header .navbar ul li:hover .items{
+    display: block;
     opacity: 1;
 }
 
