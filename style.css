@@ -1124,6 +1124,7 @@ header .navbar ul li:hover .items{
         width: 95%;
         height: 8rem;
         font-size: 65%;
+        margin: 5px;
     }
 
     .innersection .contact{
