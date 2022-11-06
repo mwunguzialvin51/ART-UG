@@ -1122,8 +1122,8 @@ header .navbar ul li:hover .items{
 
     .main-division{
         width: 90%;
-        height: 20rem;
-        font-size: 2rem;
+        height: 10rem;
+        font-size: 120%;
     }
 
     .innersection .contact{
