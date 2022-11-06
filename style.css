@@ -109,6 +109,10 @@ header .navbar ul li:hover .items{
     opacity: 1;
 }
 
+#close{
+    background-color: green;
+}
+
 
 
 
