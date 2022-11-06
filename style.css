@@ -81,13 +81,7 @@ header .navbar ul li ul li a:hover
     border-radius: 5px;
 }
 
-#close{
-    background-color: #8c0;
-    color: #fff;
-    padding: 5px;
-    cursor: pointer;
-    user-select: none;
-}
+
 
 header .navbar ul li .items
 {
@@ -98,7 +92,7 @@ header .navbar ul li .items
     padding: 15px;
     display: hidden;
     opacity: 0;
-    height: 25rem;
+    height: 20rem;
     margin: 17px;
 }
 
