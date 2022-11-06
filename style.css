@@ -89,10 +89,10 @@ header .navbar ul li .items
     left: 0;
     background: rgb(59, 59, 59);
     border-radius: 5px;
-    padding: 15px;
-    display: hidden;
+    padding: 25px;
+    display: none;
     opacity: 0;
-    height: 20rem;
+    height: 25rem;
     margin: 17px;
 }
 
