@@ -686,6 +686,28 @@ header .logo img
     .headings-1 p{
         font-size: 100%;
     }
+
+
+    .lastcontainer{
+        height: 100%;
+    }
+
+
+    .seventhcontainer{
+        height: 100%;
+    }
+
+    .seventhcontainer .leftside{
+        margin: 15px;
+    }
+
+    .seventhcontainer .rightside{
+        margin: 15px;
+    }
+
+    .sixthcontainer{
+        height: 100%;
+    }
 }
 
 
