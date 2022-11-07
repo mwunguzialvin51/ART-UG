@@ -8,8 +8,6 @@
 
 body{
     background: #fff;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 
@@ -114,8 +112,8 @@ header .navbar ul li:hover .items{
 
 
 header .logo{
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,8 +122,8 @@ header .logo{
 
 header .logo img
 {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
 }
 
@@ -192,14 +190,12 @@ header .logo img
 
 .leftside
 {
-    width: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     margin: 10px;
     padding: 10px;
-    margin: 10px;
 }
 
 .leftside .heading h1{
@@ -438,6 +434,7 @@ header .logo img
     box-shadow: 3px 4px 5px rgba(0,0,0,0.2), 4px 5px 6px rgba(0,0,0,0.2);
     padding: 20px;
     margin: 30px;
+    background-color: white;
 }
 
 
@@ -449,6 +446,7 @@ header .logo img
     justify-content: center;
     flex-direction: column;
     margin: 30px;
+    background-color: white;
 }
 
 
@@ -688,6 +686,27 @@ header .logo img
 
 /* the section for the media queries  */
 
+
+@media (max-width: 1298px){
+    body{
+      overflow-x: hidden;
+
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo img{
+        display: none;
+    }
+
+
+}
+
+
+
+
 @media (max-width: 1078px){
 
 
@@ -696,17 +715,8 @@ header .logo img
     }
 
     
-
-
-
     .innersection{
         height: 100%;
-    }
-
-
-    .leftside{
-        margin: 35px;
-        width: 90%;
     }
 
 
@@ -734,9 +744,8 @@ header .logo img
 
     .leftside
     {
-        width: 100%;
         padding: 5px;
-        margin: 5px;
+        width: 95%;
     }
 
     .heading
@@ -747,21 +756,7 @@ header .logo img
     }
 
 
-    .heading p{
-        padding: 5px;
-    }
-
-    .innersection{
-        width: 100%;
-    }
-
-    
-
-
-
-
-
-
+   
 
 
 }
