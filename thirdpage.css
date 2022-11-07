@@ -15,48 +15,47 @@ body{
 
 
 /* the navigation / header section of the the website  */
+header p
+{
+    color: black;
+    background-color: black;
+}
+
+
+
+
+
+
 header{
     position: relative;
-    top: 0;
-    left: 0;
-    right:0;
-    background: #000;
-    box-shadow: 5px 5px 6px rgba(255,255,255,0.2);
-    padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    z-index: 1000;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #000;
 }
-
-header.logo
-{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-}
-
-header.logo img
-{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-}
-
 
 header .navbar ul
 {
     list-style: none;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1), -4px -5px 5px rgba(0,0,0,0.2);
-    padding: 10px;
+    background-color: #000;
     margin-top: 8px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 17rem;
+    height: 4rem;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
 }
 
 header .navbar ul li
 {
     position: relative;
     display:inline-block;
-    word-spacing: 10px;
+    text-align: center;
 }
 
 header .navbar ul li a
@@ -65,13 +64,13 @@ header .navbar ul li a
     padding: 10px;
     color: #fff;
     text-decoration: none;
+    transition: 0.3s;
     
 }
 
 header .navbar ul li ul li a{
     color: #fff;
-    transition: 0.2s;
-    margin: 10px;
+    transition: 0.3s;
 }
 
 header .navbar ul li ul li a:hover
@@ -81,18 +80,22 @@ header .navbar ul li ul li a:hover
     border-radius: 5px;
 }
 
-header .navbar ul li ul
+
+
+header .navbar ul li .items
 {
     position: absolute;
     left: 0;
     background: rgb(26, 25, 25);
     border-radius: 5px;
-    padding: 10px;
-    visibility: hidden;
+    padding: 25px;
+    display: none;
     opacity: 0;
+    height: 25rem;
+    margin: 17px;
 }
 
-header .navbar ul li ul li a
+header .navbar ul li .items li a
 {
     left: 300px;
     top: 0;
@@ -100,35 +103,13 @@ header .navbar ul li ul li a
 }
 
 
-header .navbar ul li:hover ul{
-    visibility: visible;
+header .navbar ul li:hover .items{
+    display: block;
     opacity: 1;
 }
 
-
-header button
-{
-    border: none;
-    outline: none;
-}
-
-header button a
-{
-    text-decoration: none;
-    color: #fff;
-    background-color: red;
-    padding: 20px 30px;
-    border-radius: 8px;
-    box-shadow: 4px 3px 4px red;
-    transition: 0.2s;
-
-}
-
-header button a:hover
-{
-    background-color: #fff;
-    box-shadow: 3px 3px 4px rgba(0,0,0,0.1), -3px -3px 3px rgba(0,0,0,0.1);
-    color: #000;
+#close{
+    background-color: green;
 }
 
 
@@ -147,6 +128,59 @@ header .logo img
     height: 5rem;
     border-radius: 50%;
 }
+
+ .contact
+{
+    outline: none;
+    border: none; 
+    margin: 20px;
+    width: 15rem;
+    height: 3.5rem;
+}
+
+
+
+ .contact a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    user-select: none;
+}
+
+ .contact {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 8px;
+    box-shadow: 4px 3px 4px red;
+    transition: 0.2s;
+    font-size: 1.2rem;
+    user-select: none;
+}
+
+.contact:hover{
+    background: #fff;
+    color: #000;
+    box-shadow: none;
+}
+
+
+
+
+
+ .contact:focus
+{
+    background:grey;
+    box-shadow: 5px 4px 5px rgba(0,0,0,0.1), -5px -4px 5px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
 
 
 .secondcontainer
@@ -616,131 +650,19 @@ header .logo img
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#menus
-{
-    display: none;
-}
-
-
-header label
-{
-    font-size: 20px;
-    color: red;
-    cursor: pointer;
-    display: none;
-}
-
-
-
-
-
-
-
-
-/* the section for the media queries  */
-
-@media (max-width: 1126px){
-
-
-    body{
-        overflow-x: hidden;
-    }
-
-    .navbar ul li a{
-        font-size: 1.8rem;
-    }
-
-
-    .div-1{
-        width: 500px;
-    }
-
-    .seventhcontainer
-    {
-        height: 100%;
-    }
-
-
-    .lastcontainer
-    {
-        height: 100%;
-    }
-
-    .sectionalheading{
-        width: 100%;
-        padding: 20px;
-    }
-
-
-
     
 
 
 
 
-
-
-
-
+.sectionalheading{
+        width: 100%;
+        padding: 20px;
 }
+
+
+
+    
 
 
 
@@ -754,15 +676,9 @@ header label
 
 @media (max-width: 1000px)
 {
-    header .navbar ul li ul{
-        visibility: visible;
-        opacity: 1;
-    }
+   
   
-    header label
-    {
-        display: initial;
-    }
+    
 
     header .navbar 
     {
@@ -788,9 +704,5 @@ header label
 
 
 
-    #menus:checked ~ .navbar 
-    {
-       display: block;
-    }
 
 }
