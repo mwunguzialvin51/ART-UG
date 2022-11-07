@@ -655,54 +655,37 @@ header .logo img
 
 
 
-.sectionalheading{
+.sectionalheading
+{
         width: 100%;
         padding: 20px;
 }
 
 
 
-    
-
-
 
 @media (max-width: 1126px)
 {
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+
     .div-1{
         width: 400px;
     }
+
+
+    .headings-1 h1{
+        font-size: 350%;
+    }
+
+
+    .headings-1 p{
+        font-size: 100%;
+    }
 }
 
 
-@media (max-width: 1000px)
-{
-   
-  
-    
-
-    header .navbar 
-    {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        width: 100%;
-        display: none;
-    }
-
-    header .navbar ul li
-    {
-        width: 100%;
-    }
-
-    header .navbar ul li ul
-    {
-        position: relative;
-        width: 100%;
-
-    }
-
-
-
-
-}
