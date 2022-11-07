@@ -39,7 +39,7 @@ header{
 header .navbar ul
 {
     list-style: none;
-    background-color: #000;
+    background-color: rgb(27, 27, 27);
     margin-top: 8px;
     border-radius: 5px;
     margin: 10px;
