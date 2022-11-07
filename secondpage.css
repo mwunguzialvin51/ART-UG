@@ -21,7 +21,7 @@ header{
     left: 0;
     right:0;
     background: #000;
-    box-shadow: 5px 5px 6px rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 6px rgba(24, 24, 24, 0.2);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -56,6 +56,7 @@ header .navbar ul li
 {
     position: relative;
     display:inline-block;
+    word-spacing: 10px;
 }
 
 header .navbar ul li a
@@ -83,7 +84,7 @@ header .navbar ul li ul
 {
     position: absolute;
     left: 0;
-    background: #000;
+    background: rgb(26, 25, 25);
     border-radius: 5px;
     padding: 10px;
     visibility: hidden;
@@ -95,6 +96,7 @@ header .navbar ul li ul li a
     left: 300px;
     top: 0;
     line-height: 70px;
+    margin: 20px;
 }
 
 
@@ -177,7 +179,7 @@ header .logo img
 
 .leftside .heading h1{
   color: #fff;
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 10px;
 }
 
@@ -188,14 +190,14 @@ header .logo img
 
 
 .leftside p{
-    font-size: 1rem;
+    font-size: 2rem;
     color: #fff;
 }
 
 
 .buttoncontainer
 {
-    width: 100%;
+    width: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,13 +207,17 @@ header .logo img
 
 .firstbutton
 {
-    width: 7rem;
+    width: 10rem;
     padding: 5px;
     background: red;
-    height: 2.5rem;
+    height: 3rem;
     margin: 10px;
     border-radius: 5px;
     border: none;
+}
+
+.firstbutton a{
+    font-size: 1.2rem;
 }
 
 .firstbutton:hover{
@@ -227,22 +233,30 @@ header .logo img
 
 .secondbutton
 {
-    width: 7rem;
+    width: 10rem;
     padding: 5px;
     background: transparent;
-    height: 2.5rem;
+    height: 3rem;
     margin: 10px;
     border-radius: 5px;
     border: 1px solid #fff;
+    display: block;
 }
 
 .secondbutton a{
-    color: red;
+    color: #fff;
     text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.1s;
 }
 .secondbutton:hover{
     background: #fff;
     box-shadow: 4px 5px 6px rgba(255,255,255,0.2);
+    color: #000;
+}
+
+.secondbutton a:hover{
+  color: #000;
 }
 
 
@@ -326,7 +340,7 @@ header .logo img
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 30px;
   
     
 }
@@ -341,7 +355,7 @@ header .logo img
 
 
 .box-1  h1{
-    font-size: 2.4rem;
+    font-size: 3rem;
     color: #000;
     font-weight: 900;
     margin-bottom: 20px;
@@ -365,7 +379,7 @@ header .logo img
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin: 20px;
+    margin: 30px;
 }
 
 .box-2 img{
@@ -398,6 +412,7 @@ header .logo img
     border-radius: 20px 0;
     box-shadow: 3px 4px 5px rgba(0,0,0,0.2), 4px 5px 6px rgba(0,0,0,0.2);
     padding: 20px;
+    margin: 30px;
 }
 
 
@@ -408,7 +423,7 @@ header .logo img
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 30px;
 }
 
 
@@ -436,7 +451,7 @@ header .logo img
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin: 20px;
+    margin: 30px;
 }
 
 .box-4 img{
@@ -454,7 +469,6 @@ header .logo img
     justify-content: center;
     flex-wrap: wrap;
     border-bottom: 2px solid gold;
-    margin-bottom: 20px;
     margin-top: 20px;
 }
 
@@ -470,6 +484,7 @@ header .logo img
     border-radius: 20px 0;
     box-shadow: 3px 4px 5px rgba(0,0,0,0.2), 4px 5px 6px rgba(0,0,0,0.2);
     padding: 20px;
+    margin: 30px;
 }
 
 
@@ -480,7 +495,7 @@ header .logo img
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 30px;
 }
 
 
@@ -508,7 +523,7 @@ header .logo img
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin: 20px;
+    margin: 30px;
 }
 
 .box-6 img{

@@ -87,7 +87,7 @@ header .navbar ul li .items
 {
     position: absolute;
     left: 0;
-    background: rgb(59, 59, 59);
+    background: rgb(26, 25, 25);
     border-radius: 5px;
     padding: 25px;
     display: none;
@@ -1135,9 +1135,7 @@ header .navbar ul li:hover .items{
         margin: 10px;
     }
      
-    header .navbar ul li .items{
-        padding: 40px;
-    }
+   
 
     header{
         justify-content: space-evenly;
