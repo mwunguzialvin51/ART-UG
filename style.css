@@ -187,14 +187,6 @@ header .navbar ul li:hover .items{
 }
 
 
-.innersection .contact
-{
-    outline: none;
-    border: none; 
-    margin: 20px;
-    width: 15rem;
-    height: 3.5rem;
-}
 
 
 
@@ -213,6 +205,11 @@ header .navbar ul li:hover .items{
     transition: 0.2s;
     font-size: 1.2rem;
     user-select: none;
+    outline: none;
+    border: none; 
+    margin: 20px;
+    width: 15rem;
+    height: 3.5rem;
 }
 
 .innersection .contact:hover{

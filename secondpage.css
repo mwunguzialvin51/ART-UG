@@ -144,7 +144,7 @@ header .logo img
     transition: 0.2s;
     font-size: 1.2rem;
     user-select: none;
-    margin-left: 15px;
+    margin: 20px;
     outline: none;
     border: none; 
     width: 17rem;
