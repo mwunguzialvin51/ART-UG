@@ -948,6 +948,24 @@ header .navbar ul li:hover .items{
 }
 
 
+.sec-2 a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.sec-2 a:hover{
+    color: red;
+}
+
+
+
+
+.sec-1 p:hover{
+    color: red;
+}
+
+
 
 
 
