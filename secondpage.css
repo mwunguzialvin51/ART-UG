@@ -22,8 +22,6 @@ header p
 
 
 
-
-
 header{
     position: relative;
     display: flex;
@@ -674,15 +672,6 @@ header .logo img
 
 
 
-
-
-
-
-
-
-
-
-
 /* the section for the media queries  */
 
 
@@ -757,9 +746,6 @@ header .logo img
     .leftside .heading h1{
         font-size: 2.3rem;
       }
-
-
-   
 
 
 }

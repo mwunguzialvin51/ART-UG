@@ -15,11 +15,7 @@ body{
 
 
 /* the navigation / header section of the the website  */
-header p
-{
-    color: black;
-    background-color: black;
-}
+
 
 
 
@@ -113,8 +109,8 @@ header .navbar ul li:hover .items{
 
 
 header .logo{
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,8 +119,8 @@ header .logo{
 
 header .logo img
 {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
 }
 
@@ -171,17 +167,6 @@ header .logo img
     background:grey;
     box-shadow: 5px 4px 5px rgba(0,0,0,0.1), -5px -4px 5px rgba(0,0,0,0.1);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -273,22 +258,6 @@ header .logo img
     font-size: 2.5rem;
     color: rgb(80, 79, 79);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -503,24 +472,6 @@ header .logo img
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* the contact section  */
 .contact-section
 {
@@ -593,35 +544,6 @@ header .logo img
 
 
 
-
-
-
-
-
-
-
-
-
-#menus
-{
-    display: none;
-}
-
-
-header label
-{
-    font-size: 20px;
-    color: red;
-    cursor: pointer;
-    display: none;
-}
-
-
-
-
-
-
-
 /* the section for the media queries  */
 
 @media (max-width: 1078px){
@@ -661,10 +583,16 @@ header label
         width: 100%;
     }
 
-
     
 
 
+    .logo{
+        display: none;
+    }
+
+    .logo img{
+        display: none;
+    }
 
 
 
@@ -678,9 +606,6 @@ header label
 {
     
    
-
-
-
 
     .third-container{
         height: 100%;
