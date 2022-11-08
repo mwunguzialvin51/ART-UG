@@ -967,6 +967,18 @@ header .navbar ul li:hover .items{
 
 
 
+.sec-1 p a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.sec-1 p a:hover{
+    color: red;
+}
+
+
+
 
 
 /* the section for the media queries  */
