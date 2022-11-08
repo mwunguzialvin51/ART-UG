@@ -480,7 +480,7 @@ header .logo img
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #696969;
+    background: #353535;
 }
 
 
@@ -491,9 +491,13 @@ header .logo img
 
 .sectionalheading h1
 {
-   font-size: 2.5rem;
+   font-size: 2.8rem;
    margin: 20px;
    color: #fff;
+}
+
+.sectionalheading p{
+    color: #fff;
 }
 
 
@@ -596,7 +600,7 @@ header .logo img
 .sec-1 h1
 {
     color: red;
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin: 10px;
 }
 
@@ -604,6 +608,8 @@ header .logo img
 {
     color: #fff;
     margin: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 
@@ -611,12 +617,15 @@ header .logo img
 {
     color: #fff;
     margin: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .sec-2 h1{
     color: red;
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin: 10px;
+    cursor: pointer;
 }
 
 .sec-3{
@@ -629,6 +638,8 @@ header .logo img
 
 .sec-3 p{
     color: #fff;
+    cursor: pointer;
+    font-size: 150%;
     
 }
 
