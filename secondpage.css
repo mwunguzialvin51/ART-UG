@@ -125,15 +125,7 @@ header .logo img
     border-radius: 50%;
 }
 
- .contact
-{
-    outline: none;
-    border: none; 
-    margin: 20px;
-    width: 17rem;
-    height: 3.5rem;
-    padding: 15px;
-}
+
 
 
 
@@ -152,7 +144,12 @@ header .logo img
     transition: 0.2s;
     font-size: 1.2rem;
     user-select: none;
-    margin-left: 10px;
+    margin-left: 15px;
+    outline: none;
+    border: none; 
+    width: 17rem;
+    height: 3.5rem;
+    padding: 15px;
 
 }
 

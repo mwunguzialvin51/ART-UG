@@ -124,15 +124,7 @@ header .logo img
     border-radius: 50%;
 }
 
- .contact
-{
-    outline: none;
-    border: none; 
-    margin-left: 20px;
-    width: 15rem;
-    height: 3.5rem;
-    padding: 10px;
-}
+ 
 
 
 
@@ -151,6 +143,12 @@ header .logo img
     transition: 0.2s;
     font-size: 1.2rem;
     user-select: none;
+    outline: none;
+    border: none; 
+    margin-left: 15px;
+    width: 15rem;
+    height: 3.5rem;
+    padding: 10px;
 }
 
 .contact:hover{
