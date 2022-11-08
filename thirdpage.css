@@ -281,7 +281,7 @@ header .logo img
     outline: none;
     margin: 20px;
     background: none;
-    border-radius: 20px 0;
+    border-radius: 10px;
 }
 
 
@@ -316,14 +316,14 @@ header .logo img
     background: none;
     border: 1px solid black;
     margin: 10px;
-    border-radius: 20px 0;
+    border-radius: 10px;
 }
 
 .section1 h2{
     background: #000;
     color: #fff;
     padding: 10px;
-    border-radius: 30px 0;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
@@ -333,7 +333,7 @@ header .logo img
     background: red;
     color: #fff;
     padding: 10px;  
-    border-radius: 30px 0;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
@@ -548,7 +548,7 @@ header .logo img
     height: 3rem;
     background: #000;
     border: 1px solid #000;
-    border-radius: 40px 0;
+    border-radius: 10px;
     margin: 10px;
     color: #fff;
 }
@@ -651,6 +651,15 @@ header .logo img
 {
         width: 100%;
         padding: 20px;
+}
+
+.sectionalheading h1{
+    font-size: 3rem;
+}
+
+.sectionalheading p{
+    font-size: 2rem;
+    font-style: italic;
 }
 
 

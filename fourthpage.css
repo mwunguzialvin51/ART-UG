@@ -594,6 +594,15 @@ header .logo img
         display: none;
     }
 
+    .left-section{
+        height: 100%;
+    }
+
+    .right-section
+    {
+        height: 100%;
+    }
+
 
 
 
@@ -613,14 +622,7 @@ header .logo img
     }
 
 
-    .left-section{
-        height: 100%;
-    }
-
-    .right-section
-    {
-        height: 100%;
-    }
+   
 
     .inner-1
     {
