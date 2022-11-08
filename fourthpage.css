@@ -386,15 +386,7 @@ header .logo img
     transition: 0.3s;
 }
 
-.box2:hover
-{
-    transform: translateY(-20px);
-}
 
-
-.box1:hover{
-    transform: translatey(-20px);
-}
 
 .box1 img
 {

@@ -62,7 +62,7 @@ header .navbar ul li
 header .navbar ul li a
 {
     font-size: 20px;
-    padding: 10px;
+    padding: 15px 10px;
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
@@ -269,7 +269,7 @@ header .navbar ul li:hover .items{
 .secondcontainer
 {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,6 +280,7 @@ header .navbar ul li:hover .items{
 
 .rightcontainer{
     width: 650px;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,8 +293,8 @@ header .navbar ul li:hover .items{
 
 .carousel-wrapper {
     position: relative;
-    width: 200%;
-    height: 650px;
+    width:90%;
+    height: 50%;
     display: block;
     margin: 10px;
 
@@ -737,6 +738,11 @@ header .navbar ul li:hover .items{
 {
     width: 100%;
     margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -747,7 +753,7 @@ header .navbar ul li:hover .items{
 
 
 .contents button{
-    border-radius: 30px 0;
+    border-radius: 5px ;
     width: 10rem;
     height: 3rem;
     background: transparent;
@@ -1025,18 +1031,16 @@ header .navbar ul li:hover .items{
         font-size: 2rem;
     }
 
-
-
-    .main-division h1
-    {
-        font-size: 5rem;
-        margin: 30px;
+    header .navbar ul{
+        height: 3rem;
     }
 
 
-    .main-division .button{
-        margin: 10px;
-    }
+
+    
+
+
+    
 
     .secondcontainer{
         height: 100%;
@@ -1067,15 +1071,7 @@ header .navbar ul li:hover .items{
         font-size: 290%;
     }
 
-    .main-division button a
-    {
-        padding: 20px 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 1px;
-
-    }
+   
 
     .sixthcontainer
     {
@@ -1107,6 +1103,10 @@ header .navbar ul li:hover .items{
         margin: 20px;
     }
 
+    
+
+
+
 
 }
 
@@ -1122,7 +1122,7 @@ header .navbar ul li:hover .items{
 
     .main-division{
         width: 95%;
-        height: 8rem;
+        height: 6rem;
         font-size: 65%;
         margin: 5px;
     }
