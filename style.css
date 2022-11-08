@@ -915,6 +915,7 @@ header .navbar ul li:hover .items{
     color: #fff;
     margin: 10px;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 
@@ -956,6 +957,13 @@ header .navbar ul li:hover .items{
 @media (max-width: 1178px){
 
 
+    .closing-area{
+        height: 100%;
+    }
+
+    .content-section{
+        width: 90%;
+    }
 
 
     .about h1{
