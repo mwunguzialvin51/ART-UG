@@ -761,7 +761,6 @@ header .navbar ul li:hover .items{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
     padding: 10px;
 }
 
@@ -955,7 +954,16 @@ header .navbar ul li:hover .items{
 /* the section for the media queries  */
 
 @media (max-width: 1178px){
+  
 
+
+    .content-section h1{
+        font-size: 200%;
+    }
+    
+    .content-section p{
+        font-size: 150%;
+    }
 
     .closing-area{
         height: 100%;
