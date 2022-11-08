@@ -132,6 +132,7 @@ header .logo img
     margin: 20px;
     width: 17rem;
     height: 3.5rem;
+    padding: 15px;
 }
 
 
@@ -236,6 +237,7 @@ header .logo img
 
 .firstbutton a{
     font-size: 1.2rem;
+    user-select: none;
 }
 
 .firstbutton:hover{
@@ -266,6 +268,7 @@ header .logo img
     text-decoration: none;
     font-size: 1.2rem;
     transition: 0.1s;
+    user-select: none;
 }
 .secondbutton:hover{
     background: #fff;
