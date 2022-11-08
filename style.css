@@ -756,7 +756,7 @@ header .navbar ul li:hover .items{
 
 .content-section
 {
-    width: 400px;
+    width: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -768,6 +768,14 @@ header .navbar ul li:hover .items{
 .content-section h1 , p{
     color: #fff;
     margin: 5px;
+}
+
+.content-section h1{
+    font-size: 3rem;
+}
+
+.content-section p{
+    font-size: 2rem;
 }
 
 
@@ -858,7 +866,8 @@ header .navbar ul li:hover .items{
 
 
 .about h5{
-    font-size: 1.2rem;
+    font-size: 2rem;
+    color: grey;
 }
 
 .about span{
@@ -897,7 +906,7 @@ header .navbar ul li:hover .items{
 .sec-1 h1
 {
     color: red;
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin: 10px;
 }
 
@@ -905,6 +914,7 @@ header .navbar ul li:hover .items{
 {
     color: #fff;
     margin: 10px;
+    font-size: 1.5rem;
 }
 
 
@@ -912,12 +922,15 @@ header .navbar ul li:hover .items{
 {
     color: #fff;
     margin: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .sec-2 h1{
     color: red;
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin: 10px;
+    cursor: pointer;
 }
 
 .sec-3{
@@ -930,6 +943,7 @@ header .navbar ul li:hover .items{
 
 .sec-3 p{
     color: #fff;
+    cursor: pointer;
     
 }
 
@@ -940,6 +954,20 @@ header .navbar ul li:hover .items{
 /* the section for the media queries  */
 
 @media (max-width: 1178px){
+
+
+
+
+    .about h1{
+        font-size: 2rem;
+
+    }
+    
+    
+    .about h5{
+        font-size: 160%;
+
+    }
 
 
     body{
