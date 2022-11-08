@@ -131,14 +131,7 @@ header .logo img
     margin: 5px;
 }
 
- .contact
-{
-    outline: none;
-    border: none; 
-    margin: 20px;
-    width: 15rem;
-    height: 3.5rem;
-}
+
 
 
 
@@ -158,6 +151,7 @@ header .logo img
     transition: 0.2s;
     font-size: 1.2rem;
     user-select: none;
+    margin-left: 10px;
 }
 
 .contact:hover{
@@ -668,7 +662,10 @@ header .logo img
 @media (max-width: 1126px)
 {
 
-
+     
+   .lastheading{
+    width: 80%;
+   }
 
     .sectionalheading h1{
         font-size: 200%;

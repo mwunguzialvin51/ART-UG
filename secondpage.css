@@ -152,6 +152,8 @@ header .logo img
     transition: 0.2s;
     font-size: 1.2rem;
     user-select: none;
+    margin-left: 10px;
+
 }
 
 .contact:hover{

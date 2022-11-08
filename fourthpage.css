@@ -128,7 +128,7 @@ header .logo img
 {
     outline: none;
     border: none; 
-    margin: 20px;
+    margin-left: 10px;
     width: 15rem;
     height: 3.5rem;
     padding: 15px;
