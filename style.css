@@ -1140,10 +1140,11 @@ header .navbar ul li:hover .items{
     }
 
     .innersection .contact{
-        width: 15rem;
+        width: 14rem;
         height: 3rem;
         text-align: center;
         position: relative;
+        margin: 10px;
         margin: 10px;
     }
      
