@@ -246,7 +246,7 @@ header .navbar ul li:hover .items{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(230, 230, 230);
 }
 
 
@@ -373,7 +373,7 @@ header .navbar ul li:hover .items{
     flex-direction: column;  
     padding: 20px;
     width: 600px;
-    background-color: #ff0000;
+    background-color: white;
 }
 
 .inner-1{
