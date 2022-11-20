@@ -24,7 +24,7 @@ header{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -34,7 +34,6 @@ header .navbar ul
     background-color: #000;
     margin-top: 8px;
     border-radius: 5px;
-    margin: 10px;
     width: 17rem;
     height: 4rem;
     display: flex;
@@ -204,7 +203,7 @@ header .navbar ul li:hover .items{
     outline: none;
     border: none; 
     margin: 20px;
-    width: 15rem;
+    width: 8rem;
     height: 3.5rem;
 }
 
@@ -986,7 +985,11 @@ header .navbar ul li:hover .items{
 
 @media (max-width: 1178px){
   
+   header{
+       justify-content: space-around;
+   }
 
+ 
 
     .content-section h1{
         font-size: 200%;
@@ -1029,6 +1032,9 @@ header .navbar ul li:hover .items{
 
     header .navbar ul{
         height: 3rem;
+        width: 15rem;
+        margin-top: 6px;
+
     }
 
     
@@ -1141,12 +1147,13 @@ header .navbar ul li:hover .items{
     }
 
     .innersection .contact{
-        width: 14rem;
+        width: 8rem;
         height: 3rem;
         text-align: center;
         position: relative;
-        margin: 10px;
-        margin: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 10px;
     }
      
    
