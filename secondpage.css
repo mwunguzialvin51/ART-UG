@@ -22,7 +22,7 @@ header{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     background-color: #000;
 }
@@ -35,7 +35,7 @@ header .navbar ul
     border-radius: 5px;
     margin: 10px;
     width: 17rem;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     padding: 10px;
     align-items: center;
@@ -140,12 +140,12 @@ header .logo img
     transition: 0.2s;
     font-size: 1.2rem;
     user-select: none;
-    margin: 20px;
     outline: none;
     border: none; 
-    width: 17rem;
+    margin: 10px;
+    width: 8rem;
     height: 3.5rem;
-    padding: 15px;
+    padding: 10px;
 
 }
 
@@ -722,6 +722,12 @@ header .logo img
 
     .logo img{
         display: none;
+    
+    }
+
+    header .navbar ul{
+        width: 15rem;
+        margin: 10px;
     }
 
 
@@ -731,6 +737,9 @@ header .logo img
 
 
 @media (max-width: 1078px){
+
+
+
 
 
     body{
