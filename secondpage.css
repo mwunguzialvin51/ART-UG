@@ -716,14 +716,7 @@ header .logo img
 
     }
 
-    .logo{
-        display: none;
-    }
-
-    .logo img{
-        display: none;
-    
-    }
+   
 
     header .navbar ul{
         width: 15rem;
@@ -738,7 +731,14 @@ header .logo img
 
 @media (max-width: 1078px){
 
+    .logo{
+        display: none;
+    }
 
+    .logo img{
+        display: none;
+    
+    }
 
 
 
